@@ -53,12 +53,12 @@ Use this demo as a reference for creating, deploying, and managing enterprise-sc
     python -m venv .venv
     ```
 
-3. **Activate** your virtual environment:
+3. **Activate** your virtual environment (You may have to run Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass for this to work)                                                                                                      
 
     - Windows: `.venv\Scripts\activate`
     - macOS/Linux: `source .venv/bin/activate`
 
-4. **Install** the required dependencies:
+4. **Install** the required dependencies (ensure you are in the azure-ai-agent-service-enterprise-demo folder):
 
     ```bash
     pip install -r requirements.txt
